@@ -64,7 +64,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 # TMDB & Movie Settings
 # ============================
 TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
-TMDB_POSTER = is_enabled(environ.get('TMDB_POSTER', False), False)
+TMDB_POSTER = is_enabled(environ.get('TMDB_POSTER', True), False)
 LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', True), True)
 
 # ============================
